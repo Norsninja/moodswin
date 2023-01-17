@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://127.0.0.1:5000; script-src 'self' 'unsafe-inline'; img-src 'self' data:">
+    <script src="js/frontend.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Mood Swinger Survey</title>
+  </head>
+  <body>
+    <div class="survey-container">
+      {% for question in questions %}
+        <div class="question">
+          <p>{{ question.text }}</p>
+          <label for="{{ question.id }}">{{ question.prompt }}</label>
+          <input type="{{ question.type }}" min="{{ question.min }}" max="{{ question.max }}" id="{{ question.id }}" name="{{ question.id }}">
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

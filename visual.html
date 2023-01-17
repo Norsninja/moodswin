@@ -1,0 +1,35 @@
+<html>
+    <head>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/visual.js"></script>
+	<script src='/node_modules/moment/moment.js'></script>
+	<script src='/node_modules/fullcalendar/index.global.js'></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    	<title>MoodSwinger Results Visualization</title>    
+	    </head>
+    <body>
+<div id="navbar">
+  <ul>
+    <li><a href="index.html">Survey</a></li>
+    <li><a href="results.html">Results</a></li>
+    <li><a href="visual.html">Results Visualization</a></li>
+  </ul>
+</div>
+</nav>
+	<div class="survey-container">
+	<h1> Results Visualization </h1>
+
+        <div id="fig"></div>
+			<select id="chart-type-selector">
+				<option value="scatter">Scatter</option>
+				<option value="bar">Bar</option>
+				</select>
+	   <br></br>
+	   
+	   <div id='calendar'></div>
+    </div>
+
+
+    </body>
+</html>
