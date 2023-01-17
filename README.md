@@ -1,4 +1,18 @@
-# MoodSwinger Results Visualization
+# MoodSwing
+MoodSwing is a web-based tool for tracking and visualizing changes 
+in mood and physical health over time. It is designed to allow users 
+to complete a daily survey consisting of questions about various aspects 
+of their mood, physical health, and well-being. The responses to the 
+survey are stored in a database and can be used to generate data 
+visualizations, such as line graphs and bar charts, which can help users 
+identify patterns and trends in their mood and physical health. 
+By completing the daily survey and viewing the data visualizations, 
+users can gain insights into their moods and physical health and 
+potentially identify factors that may affect them. This information 
+can be helpful in managing and improving one's mental and physical 
+health and well-being.
+
+## Moodswing Actual:
 This is a work in progress project that aims to visualize survey results collected using the MoodSwinger survey tool. The project is built using Flask for the backend, and JavaScript (jQuery, Plotly.js) for the frontend.
 
 ## Installation
