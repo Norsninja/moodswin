@@ -16,10 +16,14 @@ The app will be available at http://localhost:5000/moodswing/index.html
 ## Current functionality
 Currently, the project has the following functionality:
 
-### Retrieve survey questions
+### Submit survey answers
 Submit survey form
+
+### Retrieve survey results
 Retrieve most recent survey results
 Retrieve all survey results
+
+### Visualize results using Plotly
 The project also uses Plotly.js to generate a scatter plot of the survey results, with the x-axis showing the date the survey was submitted and the y-axis showing the survey results.
 
 ### Note
