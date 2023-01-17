@@ -11,7 +11,7 @@ To run the project, start the MongoDB server and then start the Flask app by run
 
 ### Copy code
 python app.py
-The app will be available at http://localhost:5000/moodswing/index.html
+The app will be available at http://192.168.0.17/moodswing/index.html
 
 ## Current functionality
 Currently, the project has the following functionality:

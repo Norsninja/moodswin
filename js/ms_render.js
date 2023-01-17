@@ -41,7 +41,7 @@ function createInputElement(question) {
 
 // Make an AJAX request to the /questions endpoint to retrieve the list of questions
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'http://127.0.0.1:5000/questions');
+xhr.open('GET', 'http://192.168.0.17:5000/questions');
 xhr.onload = function() {
   if (xhr.status === 200) {
     // Retrieve the list of questions from the response
@@ -96,7 +96,7 @@ form.addEventListener('submit', function(event) {
 
   // Make an AJAX request to the /submit endpoint to send the form data
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://127.0.0.1:5000/submit');
+  xhr.open('POST', 'http://192.168.0.17:5000/submit');
   xhr.onload = function() {
     if (xhr.status === 200) {
       console.log('Form data sent successfully');

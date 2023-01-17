@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Send a GET request to the /questions endpoint
-  fetch('http://127.0.0.1:5000/questions', { mode: 'no-cors' })
+  fetch('http://192.168.0.17:5000/questions', { mode: 'no-cors' })
     .then(response => {
       // Check if the response was successful
       if (!response.ok) {

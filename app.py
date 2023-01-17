@@ -109,6 +109,6 @@ def get_all_results():
     # Create a response with the appropriate CORS headers
     return jsonify(json_fig)
 
-# Run the app
+# Run the app 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='192.168.0.17', port=5000)

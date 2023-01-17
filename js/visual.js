@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     // Make an AJAX request to the /results/all endpoint to get the survey results
     $.ajax({
-        url: 'http://127.0.0.1:5000/results/all',
+        url: 'http://192.168.0.17:5000/results/all',
         type: 'GET',
         success: function(data) {
 // Create the variables

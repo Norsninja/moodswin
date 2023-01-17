@@ -1,6 +1,6 @@
 // Make an AJAX request to the /results endpoint to retrieve the most recent survey results
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'http://127.0.0.1:5000/results');
+      xhr.open('GET', 'http://192.168.0.17:5000/results');
       xhr.onload = function() {
         if (xhr.status === 200) {
           // Retrieve the survey results from the response
