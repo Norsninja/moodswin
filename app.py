@@ -87,9 +87,9 @@ def get_all_results():
 
 
 # Route to handle requests for the visualization
-@app.route('/visualization', methods=['GET'])
-@cross_origin(supports_credentials=True)
-def get_visualization():
+# @app.route('/visualization', methods=['GET'])
+# @cross_origin(supports_credentials=True)
+# def get_visualization():
     # Retrieve all documents from the collection
     results = list(results_collection.find())
 
