@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Make an AJAX request to the /visualization endpoint to get the visualization JSON data
     $.ajax({
-        url: 'http://127.0.0.1:5000/visualization',
+        url: 'http://192.168.0.17:5000/visualization',
         type: 'GET',
         success: function(json) {
             // Generate the visualization with the survey results as input data

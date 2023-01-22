@@ -13,7 +13,7 @@ can be helpful in managing and improving one's mental and physical
 health and well-being.
 
 ## Moodswing Actual:
-This is a work in progress project that aims to visualize survey results collected using the MoodSwinger survey tool. The project is built using Flask for the backend, and JavaScript (jQuery, Plotly.js) for the frontend.
+This is a work in progress project that aims to visualize survey results collected using the MoodSwinger survey tool. The project is built using Flask for the backend, and JavaScript and HTML frontend.
 
 ## Installation
 To run this project on your local machine, you will need to have Python and MongoDB installed. You will also need to install the dependencies listed in the requirements.txt file by running the following command:
@@ -38,11 +38,15 @@ Retrieve most recent survey results
 Retrieve all survey results
 
 ### Visualize results using Plotly
-The project also uses Plotly.js to generate a scatter plot of the survey results, with the x-axis showing the date the survey was submitted and the y-axis showing the survey results.
+The project also uses Plotly to generate a scatter plot of the survey results, with the x-axis showing the date the survey was submitted and the y-axis showing the survey results.
 
 ### Note
 This project is still a work in progress and I am unsure of the results. It works on my local machine, yet it may not work as expected on your machine.
 
 ### To Do
-Improve the FullCalendar functionality.
+Improve the FullCalendar functionality to display the chosen colors.
+Convert project to Django with user-specific data storage and visualization, using everything I have learned from this project. I want to use web3 to authenticate users and maybe charge some crypto (big brand, or maybe a token) to use it.
+
+
 Please let me know if you have any issues running the project.
+
