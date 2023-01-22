@@ -8,10 +8,10 @@ from visualizations import generate_visualization
 import plotly.graph_objects as go
 
 # Connect to the MongoDB server
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://norsninja:Nc8ZR5kg_3ZHfvX@moodswingdb.vadfb.mongodb.net/?retryWrites=true&w=majority')
 
 # Get the database and collection
-db = client['MoodSwinger']
+db = client.MoodSwingDB.ms_survey
 questions_collection = db['ms_survey_questions']
 results_collection = db['ms_survey_results']
 
@@ -112,3 +112,4 @@ def get_all_results():
 # Run the app 
 if __name__ == '__main__':
     app.run(host='192.168.0.17', port=5000)
+
